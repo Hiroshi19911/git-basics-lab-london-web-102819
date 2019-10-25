@@ -21,8 +21,8 @@ describe( 'this lab', () => {
 
 //describe( 'the local repository', () => {
 
-  //it( 'has README.md as a tracked file', () => {
- //   chai.assert.pathExists( './my-repository/.git/index', 'no files are being tracked.  Use "git add ." to track all files in this repo' );
+  it( 'has README.md as a tracked file', () => {
+   chai.assert.pathExists( './my-repository/.git/index', 'no files are being tracked.  Use "git add ." to track all files in this repo' );
   } )
 
  it( 'has at least one commit', () => {
