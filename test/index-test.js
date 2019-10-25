@@ -23,7 +23,7 @@ describe( 'this lab', () => {
 
   //it( 'has README.md as a tracked file', () => {
  //   chai.assert.pathExists( './my-repository/.git/index', 'no files are being tracked.  Use "git add ." to track all files in this repo' );
- // } )
+  } )
 
  it( 'has at least one commit', () => {
     chai.assert.isDirectory( './my-repository/.git/logs', 'no commits were found.  Use "git commit -m" followed by a message to create a commit' );
