@@ -13,10 +13,7 @@ describe( 'this lab', () => {
     chai.assert.isDirectory( './my-repository/.git', 'no ".git" folder was found within "/my-repository, used "git init" to initialize' );
   } )
 
-  it( 'has a README.md file in the my-repository folder', () => {
-    chai.assert.pathExists( './my-repository/README.md', 'no README.md file found within "/my-repository"' );
-  } )
-
+ 
  } )
 
 describe( 'the local repository', () => {
